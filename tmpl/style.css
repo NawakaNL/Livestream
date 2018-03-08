@@ -1,0 +1,38 @@
+.embed-responsive > .embed-responsive-item,
+.embed-responsive > iframe,
+.embed-responsive > embed,
+.embed-responsive > object,
+.embed-responsive > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+.embed-responsive-instagram {
+  padding-bottom: 140%;
+}
+
+
+.livestream > .livestream-title {
+  background: none;
+  background-color: #010050;
+  color: white;
+  padding: 5px 10px
+}
+
+.livestream > .livestream-content {
+  border: 1px solid #a8c7e0;
+  border-top: none
+}
