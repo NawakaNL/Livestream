@@ -28,6 +28,7 @@
 .livestream > .livestream-title {
   background: none;
   background-color: #010050;
+  font-weight: bold;
   color: white;
   padding: 5px 10px
 }
